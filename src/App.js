@@ -1,5 +1,5 @@
-import ExpenseItem from "./components/ExpenseItem";
-
+import ExpenseItem from "./components/Expenses/ExpenseItem";
+import Card from './components/UI/Card';
 function App() {
 
   const expenses = [
@@ -26,13 +26,13 @@ function App() {
 
   const LocationOfExpenditure='Amount spent location';
   return (
-    <div>
+    <Card>
       <h2>Let's get started!</h2>
       {expenses.map((expenseData)=>(
         <ExpenseItem title={expenseData.title} amount={expenseData.amount} date={expenseData.date} location={LocationOfExpenditure}/>
       ))}
       
-    </div>
+    </Card>
   );
 }
 
