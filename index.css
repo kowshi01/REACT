@@ -4,18 +4,13 @@
 
 html {
   font-family: sans-serif;
-  background-color: black;
+  background: #fff;
 }
 
 body {
   margin: 0;
 }
-.form{
-  background-color: white;
-  margin: auto;
-  margin-top: 200px;
-  width: 300px;
-  height: 300px;  
-  padding: 50px;
-  border-radius: 10px;
+
+main {
+  margin-top: 6rem;
 }
